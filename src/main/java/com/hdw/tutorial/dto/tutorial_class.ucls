@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.13" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.hdw.foodsci.dto.Consumptionl3Bean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/Consumptionl3Bean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="174" x="668" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.hdw.foodsci.dto.IngredientBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/IngredientBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="134" x="882" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.hdw.foodsci.dto.CommentBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/CommentBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="147" x="1056" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.hdw.foodsci.dto.RawmaterialBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/RawmaterialBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="147" x="1243" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.hdw.foodsci.dto.SearchFoodBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/SearchFoodBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="147" x="1430" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.hdw.foodsci.dto.UseraccountBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/UseraccountBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="317" width="151" x="1617" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.hdw.foodsci.dto.ConsumptionM3Bean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/ConsumptionM3Bean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="569" width="196" x="1808" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.hdw.foodsci.dto.CodeSetting1Bean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/CodeSetting1Bean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="158" x="2044" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.hdw.foodsci.dto.CodeSetting2Bean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/CodeSetting2Bean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="177" x="2242" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.hdw.foodsci.dto.FoodBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/FoodBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="158" x="2459" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.hdw.foodsci.dto.QueryBean" project="foodsci" 
+    file="/foodsci/src/main/java/com/hdw/foodsci/dto/QueryBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="263" width="220" x="2657" y="-18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="false" package="false" protected="false" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

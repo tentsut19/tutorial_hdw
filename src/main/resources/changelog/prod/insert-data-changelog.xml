@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<changeSet author="Tent" id="insert_tb_department_category_20180205">
+		<preConditions onFail="MARK_RAN">
+		    <tableExists tableName="tb_department_category" />
+		</preConditions>
+		<comment>เพิ่มข้อมูล tb_department_category</comment>
+	    <sql endDelimiter="\nGO"
+	         splitStatements="true"
+	         stripComments="true">
+	    INSERT INTO `tb_department_category` (`id`, `department_category_code`, `department_category_name_TH`, `department_category_name_EN`, `level`, `active_flag`, `department_category_parent`, `create_date`, `create_by`, `update_date`, `update_by`) VALUES (NULL, 'COMP0001', 'แฮนดีวิง1', 'Handy Wing1', '0', 'Y', '0', CURRENT_TIMESTAMP, 'System', CURRENT_TIMESTAMP, 'System')
+	    </sql>
+	</changeSet>
+	
+    
+</databaseChangeLog>

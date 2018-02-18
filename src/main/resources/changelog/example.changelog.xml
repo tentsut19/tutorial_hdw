@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<changeSet author="example" id="create_tb_example_20180205" >
+    	<preConditions onFail="MARK_RAN">
+		  <not>
+		    <tableExists tableName="tb_example" />
+		  </not>
+		</preConditions>
+		<comment>สร้างตาราง tb_example</comment>
+        <createTable tableName="tb_example">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="activeFlag" type="VARCHAR(255)"/>
+            <column name="departmentCategoryCode" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="departmentCategoryNameEN" type="VARCHAR(255)"/>
+            <column name="departmentCategoryNameTH" type="VARCHAR(255)"/>
+            <column name="departmentCategoryParent" type="BIGINT"/>
+           	<column name="level" type="INT" defaultValue="0"/>
+        </createTable>
+    </changeSet>
+
+	<changeSet author="example" id="addColumn_xxx_tb_example">
+		<preConditions onFail="MARK_RAN">
+		  <not>
+		    <columnExists columnName="xxx" tableName="tb_example"/>
+		  </not>
+		</preConditions>
+		<comment>สร้างcolumn xxx</comment>
+        <addColumn tableName="tb_example">
+            <column name="xxx" type="varchar(8)"/>
+        </addColumn>
+    </changeSet>
+    
+    <changeSet author="example" id="addColumn_xxx2_tb_example">
+		<preConditions onFail="MARK_RAN">
+		  <not>
+		    <columnExists columnName="xxx" tableName="tb_example"/>
+		  </not>
+		</preConditions>
+		<comment>เช็คถ้ามี column xxx แล้วจะไม่ทำการสร้างอีก</comment>
+        <addColumn tableName="tb_example">
+            <column name="xxx" type="varchar(8)"/>
+        </addColumn>
+    </changeSet>
+    
+    <changeSet author="example" id="modifyDataType_xxx_tb_example">
+		<preConditions onFail="MARK_RAN">
+		    <columnExists columnName="xxx" tableName="tb_example"/>
+		</preConditions>
+		<comment>modifyDataType to int</comment>
+        <modifyDataType
+            columnName="xxx"
+            newDataType="int"
+            tableName="tb_example"/>
+    </changeSet>
+    
+    <changeSet author="example" id="create_tb_example2_20180205" >
+    	<preConditions onFail="MARK_RAN">
+		  <not>
+		    <tableExists tableName="tb_example" />
+		  </not>
+		</preConditions>
+		<comment>เช็คถ้ามีตาราง tb_example จะไม่ทำการสร้าง</comment>
+        <createTable tableName="tb_example">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="activeFlag" type="VARCHAR(255)"/>
+            <column name="departmentCategoryCode" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="departmentCategoryNameEN" type="VARCHAR(255)"/>
+            <column name="departmentCategoryNameTH" type="VARCHAR(255)"/>
+            <column name="departmentCategoryParent" type="BIGINT"/>
+           	<column name="level" type="INT" defaultValue="0"/>
+        </createTable>
+    </changeSet>
+    
+    <changeSet author="example" id="dropTable_tb_example">
+        <preConditions onFail="MARK_RAN">
+		    <tableExists tableName="tb_example" />
+		</preConditions>
+        <comment>ลบตาราง tb_example</comment>
+        <dropTable tableName="tb_example"/>
+    </changeSet>
+    
+</databaseChangeLog>
