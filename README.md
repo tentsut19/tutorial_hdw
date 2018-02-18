@@ -1,4 +1,4 @@
-# README #
+<!-- # README #
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
@@ -15,15 +15,9 @@ This README would normally document whatever steps are necessary to get your app
 * Dependencies
 * Database configuration
 * How to run tests
-* Deployment instructions
+* Deployment instructions -->
 
-### Contribution guidelines ###
+# README #
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### สร้างฐานข้อมูล ###
+สร้างฐานข้อมูลชื่อ db_tutorial
